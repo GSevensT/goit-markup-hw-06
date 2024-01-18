@@ -611,6 +611,11 @@ body {
 
 /*NEW STUFF ADDED IN FOOTER*/
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .footer-container form {
   display: flex;
   align-items: flex-end;
@@ -764,8 +769,9 @@ body {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-weight: 500;
-  margin-bottom: 34px;
+  margin-bottom: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .form-container {
@@ -900,9 +906,10 @@ body {
   position: relative;
   margin-bottom: 30px;
   font-size: 12px;
-  line-height: 1.166;
-  letter-spacing: 0.01em;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: var(--lightslate, #8e8f99);
+  display: block;
 }
 .form-label-textarea {
   position: relative;
