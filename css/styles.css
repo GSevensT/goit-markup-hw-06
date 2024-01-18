@@ -763,9 +763,9 @@ body {
 
 /*modal form*/
 .form-header {
-  /* padding-top: 72px;
+  padding-top: 72px;
   padding-left: 24px;
-  padding-right: 24px; */
+  padding-right: 24px;
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-weight: 500;
