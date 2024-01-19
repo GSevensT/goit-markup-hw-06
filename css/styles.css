@@ -611,12 +611,6 @@ body {
 
 /*NEW STUFF ADDED IN FOOTER*/
 
-.footer-format {
-  width: 1280px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .footer-container form {
   display: flex;
   align-items: flex-end;
