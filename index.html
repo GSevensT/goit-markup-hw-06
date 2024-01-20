@@ -553,13 +553,14 @@
         </button>
 
         <p class="form-header">Leave your contacts and we will call you back</p>
-        <div class="form-container">
-          <form
-            name="signup_form"
-            autocomplete="on"
-            class="form-container list"
-            method="post"
-          >
+
+        <form
+          name="signup_form"
+          autocomplete="on"
+          class="form-container list"
+          method="post"
+        >
+          <div>
             <label class="form-label">
               <span class="form-label-text">Name</span>
               <input type="text" class="form-input" name="full_name" required />
@@ -626,12 +627,12 @@
                 >
               </span>
             </label>
+          </div>
 
-            <div class="form-button_container">
-              <button type="submit" class="form-button">Send</button>
-            </div>
-          </form>
-        </div>
+          <div class="form-button_container">
+            <button type="submit" class="form-button">Send</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
